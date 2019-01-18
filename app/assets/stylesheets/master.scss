@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou');
+
+
 @import "bootstrap";
 
 .clear {
@@ -38,6 +41,8 @@
   color: black;
   font-size: 25px;
   border-bottom: 1px solid #dfdfdf;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  font-weight: bold;
 }
 
 header {
@@ -46,4 +51,12 @@ header {
 
 hr {
   clear:both;
+}
+
+h1 {
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+h2 {
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
 }
