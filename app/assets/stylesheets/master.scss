@@ -79,3 +79,22 @@ h2 {
   font-weight: bold;
   font-size: 15px;
 }
+
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: left;
+  }
+}
+
+.modal {
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+h2 span {
+  color: #dddddd;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+::selection {
+  background-color: #f84342;
+}
