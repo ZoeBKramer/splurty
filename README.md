@@ -14,8 +14,6 @@ When this command completes, run the vagrant ssh command to log in to Vagrant.
 
 After this completes, you will be taken to a coding environment inside your virtual machine, and your terminal should contain the green [ENV].
 
-![Vagrant CLI](images/windows-dev-setup-image_0.png)
-
 Running the `killall ruby` command in your terminal should quit all running Rails servers.
 
 **To ensure that your server is not running** -— If you visit the URL [http://localhost:3030](http://localhost:3030) in your browser, you should not see a web page load. You should ensure that your server is not running before starting new server windows.
