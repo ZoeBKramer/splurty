@@ -1,8 +1,6 @@
-# Install Ruby on Rails
-
 # Set Up Vagrant
 
-Click [here](windows-vagrant.md) to find the instructions for setting up Vagrant.
+Click [here](https://github.com/university-bootcamp/coding-environment/blob/master/windows-vagrant.md) to find the instructions for setting up Vagrant.
 
 ### Vagrant
 
@@ -20,6 +18,20 @@ Running the `killall ruby` command in your terminal should quit all running Rail
 
 **If you want to preview the application that is running within your coding environment**—Visiting the [http://localhost:3030](http://localhost:3030) from your web browser will allow you to do this.
 
-**Location of project files**—When using this vagrant environment, most people will store the code for their specific projects in the folder in the location `/vagrant/src` inside their coding environment.
-
 All the files within this folder inside the Vagrant environment will be automatically synced outside the Vagrant environment to folder inside the `coding-environment/src` folder that is located outside the virtual machine, usually on your Desktop.
+
+### Checking Out the Repo
+
+Check this repository out into your `coding-environment/src` folder. 
+
+### Create the Initial Database
+
+Connect to your Vagrant instance, change the directory `cd /vagrant/src/splurty`
+
+Run `rake db:create`
+
+### Starting Up Your Server
+
+In a separate terminal, change the directory `cd /vagrant/src/splurty`
+
+Start your server by running `rails server -b 0.0.0.0 -p 3000`
