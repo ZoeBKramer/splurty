@@ -20,6 +20,8 @@ Running the `killall ruby` command in your terminal should quit all running Rail
 
 All the files within this folder inside the Vagrant environment will be automatically synced outside the Vagrant environment to folder inside the `coding-environment/src` folder that is located outside the virtual machine, usually on your Desktop.
 
+# Set Up Splurty
+
 ### Checking Out the Repo
 
 Check this repository out into your `coding-environment/src` folder. 
