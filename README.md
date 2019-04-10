@@ -39,3 +39,11 @@ Run `rake db:create`
 In a separate terminal, change the directory `cd /vagrant/src/splurty`
 
 Start your server by running `rails server -b 0.0.0.0 -p 3000`
+
+# Splurty
+
+### Overview
+
+A web application, built with Ruby on Rails, that allows users to enter a quote followed by the author. The quotes are stored into the database using Postgresql. These quotes are then outputted randomly onto the front page. 
+
+### Code Structure
