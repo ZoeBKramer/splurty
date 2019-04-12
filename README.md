@@ -47,3 +47,11 @@ Start your server by running `rails server -b 0.0.0.0 -p 3000`
 A web application, built with Ruby on Rails, that allows users to enter a quote followed by the author. The quotes are stored into the database using Postgresql. These quotes are then outputted randomly onto the front page. 
 
 ### Code Structure
+
+**Web App Layout** - On each page in the web application, the header and the footer are present. You can find the code for this in `app\views\layouts\application.html.erb'.
+
+**Index Page** - This is where all of the quotes are outputted at random. This is happening inside of the `app\controllers\quotes_controller.rb` file, within the index method. The view for this page is in `app\views\quotes\index.html.erb`. 
+
+**About Page** - This page can be found in `app\views\quotes\about.html.erb`. 
+
+**Creating a Quote** - The method for adding a new quote into the database is found in the `app\controllers\quotes_controller.rb` file, within the create method. The modal form for adding said quote can be located in `app\views\quotes\new.html.erb`. 
