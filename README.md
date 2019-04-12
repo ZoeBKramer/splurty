@@ -48,7 +48,7 @@ A web application, built with Ruby on Rails, that allows users to enter a quote 
 
 ### Code Structure
 
-**Web App Layout** - On each page in the web application, the header and the footer are present. You can find the code for this in `app\views\layouts\application.html.erb'.
+**Web App Layout** - On each page in the web application, the header and the footer are present. You can find the code for this in `app\views\layouts\application.html.erb`.
 
 **Index Page** - This is where all of the quotes are outputted at random. This is happening inside of the `app\controllers\quotes_controller.rb` file, within the index method. The view for this page is in `app\views\quotes\index.html.erb`. 
 
