@@ -11,6 +11,7 @@ A web application, built with Ruby on Rails, that allows users to enter a quote 
 **Models** - The splurty app only has one model, the quote model. This handles all the validations for the quote and prevents users from entering blank data. Click [here](https://github.com/ZoeBKramer/splurty/blob/master/app/models/quote.rb) to view this file. 
 
 **Views** - 
+
 *New Quote View*: This is found in [`app\views\quotes\new.html.erb`](https://github.com/ZoeBKramer/splurty/blob/master/app/views/quotes/new.html.erb). This creates the form that the user can enter a quote into.  
 
 *Index View*: This is found in [`app\views\quotes\index.html.erb`](https://github.com/ZoeBKramer/splurty/blob/master/app/views/quotes/index.html.erb). This is what displays a quote from the database onto the screen. 
