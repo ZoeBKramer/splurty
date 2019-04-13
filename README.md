@@ -8,13 +8,24 @@ A web application, built with Ruby on Rails, that allows users to enter a quote 
 
 ### Code Structure
 
-**Models** - 
+**Models** - The splurty app only has one model, the quote model. This handles all the validations for the quote and prevents users from entering blank data. Click [here](https://github.com/ZoeBKramer/splurty/blob/master/app/models/quote.rb) to view this file. 
 
 **Views** - 
+*New Quote View*: This is found in [`app\views\quotes\new.html.erb`](https://github.com/ZoeBKramer/splurty/blob/master/app/views/quotes/new.html.erb). This creates the form that the user can enter a quote into.  
 
-**Controllers**
+*Index View*: This is found in [`app\views\quotes\index.html.erb`](https://github.com/ZoeBKramer/splurty/blob/master/app/views/quotes/index.html.erb). This is what displays a quote from the database onto the screen. 
 
-**Gemfiles** - 
+*About View*: This is found in [`app\views\quotes\about.html.erb`](https://github.com/ZoeBKramer/splurty/blob/master/app/views/quotes/about.html.erb). This controls what is displayed in the 'About Me' section in the app. 
+
+*Header and Footer*: This is found in [`app\views\layouts\application.html.erb`](https://github.com/ZoeBKramer/splurty/blob/master/app/views/layouts/application.html.erb). This controls what is displayed in the header and footer on every page in the application. 
+
+**Controllers** - [`app\controllers\quotes_controller.rb`](https://github.com/ZoeBKramer/splurty/blob/master/app/controllers/quotes_controller.rb). 
+
+*index method*: This method displays a random quote from the database onto the index page.
+
+*create method*: This method adds a new quote (provided that it is valid) into the database. 
+
+**Gemfiles** - This app utilizes the [bootstrap gem](https://github.com/twbs/bootstrap-rubygem) to help format the page. It also uses the [simple-form gem](https://github.com/plataformatec/simple_form) to create the form for the quotes to be entered into. 
 
 # Set Up Vagrant
 
