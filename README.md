@@ -12,19 +12,27 @@ A web application, built with Ruby on Rails, that allows users to enter a quote 
 
 **Views**: 
 
-*Index View* - This is found in [`app\views\quotes\index.html.erb`](https://github.com/ZoeBKramer/splurty/blob/master/app/views/quotes/index.html.erb). This is what displays a quote from the database onto the screen. 
+*Index View* - [`app\views\quotes\index.html.erb`](https://github.com/ZoeBKramer/splurty/blob/master/app/views/quotes/index.html.erb)
+
+Displays a quote from the database onto the screen. 
 
 ![The Index View Image](https://raw.githubusercontent.com/ZoeBKramer/splurty/master/app/assets/images/Splurty/Splurty.png)
 
-*New Quote View* - This is found in [`app\views\quotes\new.html.erb`](https://github.com/ZoeBKramer/splurty/blob/master/app/views/quotes/new.html.erb). This creates the form that the user can enter a quote into.  
+*New Quote View* - [`app\views\quotes\new.html.erb`](https://github.com/ZoeBKramer/splurty/blob/master/app/views/quotes/new.html.erb) 
+
+Creates the form that the user can enter a quote into.  
 
 ![The New Quote View Image](https://raw.githubusercontent.com/ZoeBKramer/splurty/master/app/assets/images/Splurty/QuoteForm.png)
 
-*About View* - This is found in [`app\views\quotes\about.html.erb`](https://github.com/ZoeBKramer/splurty/blob/master/app/views/quotes/about.html.erb). This controls what is displayed in the 'About Me' section in the app. 
+*About View* - [`app\views\quotes\about.html.erb`](https://github.com/ZoeBKramer/splurty/blob/master/app/views/quotes/about.html.erb) 
+
+Controls what is displayed in the 'About Me' section in the app. 
 
 ![The About View Image](https://raw.githubusercontent.com/ZoeBKramer/splurty/master/app/assets/images/Splurty/AboutPage.png)
 
-*Header and Footer* - This is found in [`app\views\layouts\application.html.erb`](https://github.com/ZoeBKramer/splurty/blob/master/app/views/layouts/application.html.erb). This controls what is displayed in the header and footer on every page in the application. 
+*Header and Footer* - [`app\views\layouts\application.html.erb`](https://github.com/ZoeBKramer/splurty/blob/master/app/views/layouts/application.html.erb) 
+
+Controls what is displayed in the header and footer on every page in the application. 
 
 **Controllers**: [`app\controllers\quotes_controller.rb`](https://github.com/ZoeBKramer/splurty/blob/master/app/controllers/quotes_controller.rb). 
 
